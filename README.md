@@ -19,7 +19,7 @@ This code is the supplementary material for the paper
 
 - By deterministic, we mean that the ground-truth cannot assume values outside the uncertainty envelope. 
 
-- The derived bounds require an estimate of the unknown function complexity as measured by the chosen kernel, through its RKHS. If you would like to know how to approximate this quantity from data alone, please check "Robust Uncertainty Bounds in Reproducing KernelHilbert Spaces: A Convex Optimization Approach", Appendix A.
+- The derived bounds require an estimate of the unknown function complexity as measured by the chosen kernel, through its RKHS. If you would like to know how to approximate this quantity from data alone, please check "Robust Uncertainty Bounds in Reproducing Kernel Hilbert Spaces: A Convex Optimization Approach", Appendix A.
 
 ## Dependencies  :building_construction:
 
