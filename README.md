@@ -8,7 +8,7 @@ Deterministic error bounds for kernel-based learning techniques under bounded no
 @article{maddalena2021embedded,
   title={Embedded PWM predictive control of DC-DC power converters via piecewise-affine neural networks},
   author={E. T. Maddalena, P. Scharnhorst and C. N. Jones},
-  journal={Automatica},
+  journal={Automatica (accepted)},
   volume={-},
   pages={1--18},
   year={2021}
@@ -17,7 +17,7 @@ Deterministic error bounds for kernel-based learning techniques under bounded no
 
 ## Description :books:
 
-We make use of deterministic, finite-sample, error bounds for kernel models to design robust MPC controllers. Non-parametric kernel machines are used to learn the dynamics `f(x,u)` of discrete-time dynamical systems. Thanks to the bounds, we can build hyper-rectangles aroung the nominal predictions that are guaranteed to contain the ground-truth states. 
+We derive deterministic error-bounds for two non-parametric kernel models: kernel ridge regression (KRR) and support vector regression (SVR). Our setting is that of bounded measurement noise. Our expressions only involve solving a single box-constrained quadratic program off-line, but otherwise are given in closed-form.
 
 ## Dependencies  :building_construction:
 
