@@ -15,9 +15,11 @@ This code is the supplementary material for the paper
 
 ## Description :books:
 
-We derive deterministic error-bounds for two non-parametric kernel models: kernel ridge regression (KRR) and support vector regression (SVR). Our setting is that of bounded measurement noise. Our expressions only involve solving a single box-constrained quadratic program off-line, but otherwise are given in closed-form.
+- We derive deterministic error-bounds for two non-parametric kernel models: kernel ridge regression (KRR) and support vector regression (SVR). Our setting is that of bounded measurement noise. Our expressions only involve solving a single box-constrained quadratic program off-line, but otherwise are given in closed-form.
 
-By deterministic, we mean that the ground-truth cannot assume values outside the uncertainty envelope. 
+- By deterministic, we mean that the ground-truth cannot assume values outside the uncertainty envelope. 
+
+- The derived bounds require an estimate of the unknown function complexity as measured by the chosen kernel, through its RKHS. If you would like to know how to approximate this quantity from data alone, please check "Robust Uncertainty Bounds in Reproducing KernelHilbert Spaces: A Convex Optimization Approach", Appendix A.
 
 ## Dependencies  :building_construction:
 
