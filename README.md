@@ -1,6 +1,6 @@
 # DetErrBnd
 
-This code is the supplementary material for the paper
+This is the supplementary material for the paper
 
 ```
 @article{maddalena2021embedded,
