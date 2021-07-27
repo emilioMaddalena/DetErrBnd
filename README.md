@@ -24,4 +24,6 @@ We derive deterministic error-bounds for two non-parametric kernel models: kerne
 - YALMIP (https://yalmip.github.io/)
 - Gurobi (https://www.gurobi.com/)
 
-![alt text](https://github.com/emilioMaddalena/KPC/blob/dev/fig/pred.png)
+![alt text](https://github.com/emilioMaddalena/DetErrBnd/blob/master/pics/1a.png)
+
+![alt text](https://github.com/emilioMaddalena/DetErrBnd/blob/master/pics/1b.png)
